@@ -55,10 +55,11 @@ backend-ledger/
 │
 ├── app.js
 ├── db.js
+```
 
-# ⚙️ Installation & Setup
 
-```bash
+## ⚙️ Installation & Setup
+
 # Clone the repository
 git clone https://github.com/your-username/backend-ledger.git
 
@@ -70,7 +71,6 @@ npm install
 
 # Create .env file
 
----
 ## 🔑 Environment Variables
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
@@ -103,27 +103,27 @@ npm start
 | GET    | /api/transaction/history  | Transaction history |
 
 ## 📊 How Ledger System Works
--Uses double-entry bookkeeping
--Every transaction creates:
--Debit entry
--Credit entry
--Ensures:
--Data consistency
--Accurate balance calculation
--Audit-friendly records
+- Uses double-entry bookkeeping
+- Every transaction creates:
+- Debit entry
+- Credit entry
+- Ensures:
+- Data consistency
+- Accurate balance calculation
+- Audit-friendly records
 ## 🔒 Security Features
--JWT-based authentication
--Token blacklisting on logout
--Protected routes with middleware
--MongoDB ACID transactions
--Idempotency for safe transactions
+- JWT-based authentication
+- Token blacklisting on logout
+- Protected routes with middleware
+- MongoDB ACID transactions
+- Idempotency for safe transactions
 ## 📬 Email Notifications
--Sent on:
---User registration
---Successful transactions
+- Sent on:
+-- User registration
+-- Successful transactions
 
 
-🧪 Future Improvements
+## 🧪 Future Improvements
 ✅ Add unit & integration tests
 📊 Admin dashboard
 📱 Frontend integration
