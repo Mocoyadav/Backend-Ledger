@@ -56,7 +56,7 @@ backend-ledger/
 ├── app.js
 ├── db.js
 
-## ⚙️ Installation & Setup
+# ⚙️ Installation & Setup
 
 ```bash
 # Clone the repository
@@ -69,7 +69,8 @@ cd backend-ledger
 npm install
 
 # Create .env file
-touch .env
+
+---
 ## 🔑 Environment Variables
 PORT=5000
 MONGO_URI=your_mongodb_connection_string
