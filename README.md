@@ -61,7 +61,7 @@ backend-ledger/
 ## ⚙️ Installation & Setup
 
 # Clone the repository
-git clone https://github.com/your-username/backend-ledger.git
+git clone https://github.com/Mocoyadav/Backend-Ledger
 
 # Navigate to project folder
 cd backend-ledger
